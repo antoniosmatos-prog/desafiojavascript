@@ -9,6 +9,13 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <script src="js/form.js"></script>
+    <style>
+        section{
+            max-width: 330px;
+            text-align: justify;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
     <header>       
@@ -48,6 +55,29 @@
                     <option>TELEFONE</option>
                     <option>E-MAIL</option>
                 </select>
+
+                <section>
+                    <p id="meutexto1">
+                        “Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A qualquer momento, será possível editar ou remover tais dados."
+                        <a href="https://www.ford.com.br/politica-de-privacidade/">Termos e condições</a>
+                    </p>
+                    <br>
+
+                    <input type="checkbox" name="checara" id="checara">
+                    <label for="checara">Sim. Li e concordo com os Termos e Condições'.</label>
+                    
+
+                    <br>
+                    <br>
+
+                    <input type="checkbox" name="checarb" id="checarb">
+                    <label for="checarb">Sim. Também quero receber descontos e novidades.</label>
+                    
+
+                </section>
+
+                <br>
+
             <button type="submit" onclick="Enviar();">Enviar</button>
             </form>
             </div>
