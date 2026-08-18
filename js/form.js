@@ -33,7 +33,7 @@ function Enviar() {
 
     let marcarbox = document.querySelector("#checara")
 
-    if (marcarbox.checked){
+    if (marcarbox.checked) {
             var nome = document.getElementById("nomeid");
 
         if (nome.value != "") {
